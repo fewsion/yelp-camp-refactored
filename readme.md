@@ -146,9 +146,4 @@ It's also against the rules to use id more than once in a page as we know, so I 
 # And that would be it!
 Now we have a new comment section with some smooth collapsible create/edit forms. I tried to keep all the code inside this one file, but feel free to refactor the code further and put the CSS styles in it's own file, for example.
 
-
-
-
-
-
-
+[Click here](https://github.com/fewsion/yelp-camp-refactored/blob/comment-section/views/campgrounds/show.ejs) to see the full, updated `views/campgrounds/show.ejs` file.
