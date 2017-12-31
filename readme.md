@@ -116,7 +116,7 @@ To make the tutorial as straightforward as possible, all the changes are made on
               <input class="form-control" type="text" disabled value="<%= currentUser.username %>">
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="comment[text]" placeholder="Your comment text..." "edit-comment-form<%= comment._id %>" rows="5" cols="70"><%= comment.text %></textarea>
+              <textarea class="form-control" name="comment[text]" placeholder="Your comment text..." form="edit-comment-form<%= comment._id %>" rows="5" cols="70"><%= comment.text %></textarea>
             </div>
             <div class="form-group">
               <button class="btn btn-warning btn-sm">Edit comment <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></button>
